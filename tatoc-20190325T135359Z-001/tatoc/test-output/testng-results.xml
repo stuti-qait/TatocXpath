@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8749" started-at="2019-03-22T08:02:30Z" finished-at="2019-03-22T08:02:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8749" started-at="2019-03-22T08:02:30Z" finished-at="2019-03-22T08:02:38Z">
+      <class name="com.qait.practice.tatoc.TestTheAction">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qait.practice.tatoc.TestTheAction@4501b7af]" name="setUp" is-config="true" duration-ms="4235" started-at="2019-03-22T08:02:30Z" finished-at="2019-03-22T08:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateGridTest()[pri:0, instance:com.qait.practice.tatoc.TestTheAction@4501b7af]" name="validateGridTest" duration-ms="513" started-at="2019-03-22T08:02:34Z" finished-at="2019-03-22T08:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGridTest -->
+        <test-method status="PASS" signature="boxColorMatchTest()[pri:0, instance:com.qait.practice.tatoc.TestTheAction@4501b7af]" name="boxColorMatchTest" duration-ms="1297" started-at="2019-03-22T08:02:34Z" depends-on-methods="com.qait.practice.tatoc.TestTheAction.validateGridTest" finished-at="2019-03-22T08:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boxColorMatchTest -->
+        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:com.qait.practice.tatoc.TestTheAction@4501b7af]" name="dragAndDropTest" duration-ms="443" started-at="2019-03-22T08:02:36Z" depends-on-methods="com.qait.practice.tatoc.TestTheAction.boxColorMatchTest" finished-at="2019-03-22T08:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+        <test-method status="PASS" signature="popUpWindowTest()[pri:0, instance:com.qait.practice.tatoc.TestTheAction@4501b7af]" name="popUpWindowTest" duration-ms="1535" started-at="2019-03-22T08:02:36Z" depends-on-methods="com.qait.practice.tatoc.TestTheAction.dragAndDropTest" finished-at="2019-03-22T08:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpWindowTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qait.practice.tatoc.TestTheAction@4501b7af]" name="tearDown" is-config="true" duration-ms="674" started-at="2019-03-22T08:02:38Z" finished-at="2019-03-22T08:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qait.practice.tatoc.TestTheAction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
